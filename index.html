@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Results summary component</title>
+    <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="board">
+        <div class="results">
+          <h1 class="results__header">Your Result</h1>
+          <div class="results__bubble">
+            <h1 class="results__you-score" id="score">76</h1>
+            <h2 class="results__max-score">of 100</h2>
+          </div>
+          <h1 class="results__status">Great</h1>
+          <p class="results__feedback">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="stats">
+          <h1 class="stats__header">Summary</h1>
+          <ul class="stats__menu" id="stats-list">
+            <li
+              class="stats__item"
+              style="background-color: hsla(0, 100%, 67%, 0.05)"
+            >
+              <span class="stats__title" style="color: hsl(0, 100%, 67%)">
+                <img src="assets/images/icon-reaction.svg" alt="brain icon" />
+                Reaction
+              </span>
+              <span class="stats__value">
+                <span>80</span>
+                <span class="stats__max-value"> / 100</span>
+              </span>
+            </li>
+            <li
+              class="stats__item"
+              style="background-color: hsla(39, 100%, 56%, 0.05)"
+            >
+              <span class="stats__title" style="color: hsl(39, 100%, 56%)">
+                <img src="assets/images/icon-memory.svg" alt="brain icon" />
+                Memory
+              </span>
+              <span class="stats__value">
+                <span>92</span>
+                <span class="stats__max-value"> / 100</span>
+              </span>
+            </li>
+            <li
+              class="stats__item"
+              style="background-color: hsla(166, 100%, 37%, 0.05)"
+            >
+              <span class="stats__title" style="color: hsl(166, 100%, 37%)">
+                <img src="assets/images/icon-verbal.svg" alt="brain icon" />
+                Verbal
+              </span>
+              <span class="stats__value">
+                <span>61</span>
+                <span class="stats__max-value"> / 100</span>
+              </span>
+            </li>
+            <li
+              class="stats__item"
+              style="background-color: hsla(234, 85%, 45%, 0.05)"
+            >
+              <span class="stats__title" style="color: hsl(234, 85%, 45%)">
+                <img src="assets/images/icon-visual.svg" alt="brain icon" />
+                Visual
+              </span>
+              <span class="stats__value">
+                <span>72</span>
+                <span class="stats__max-value"> / 100</span>
+              </span>
+            </li>
+          </ul>
+          <button class="stats__action">Continue</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge"> Frontend Mentor</a>.
+        Coded by <a href="#">Chirag</a>.
+      </div>
+  </body>
+</html>
